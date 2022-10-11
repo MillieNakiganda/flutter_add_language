@@ -11,8 +11,11 @@ Also, for this, I followed this flutter [example](https://github.com/flutter/web
 1. Create a delegate class cy_intl.dart for the locale.
 
 2. Replace the date patterns to fit your desired locale. These sights help me get the date patterns for cy.
+
    2.1 https://www.localeplanet.com/icu/cy-GB/index.html
+   
    2.2 https://unicode-org.github.io/cldr-staging/charts/37/verify/dates/cy.html
+   
    2.3 https://manpages.ubuntu.com/manpages/impish/man3/DateTime::Locale::cy.3pm.html
 
 3. Add the delegate to your localization delegates in Material app
